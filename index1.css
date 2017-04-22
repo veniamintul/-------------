@@ -1,0 +1,111 @@
+body {
+	background: #eee;
+	background-image: url("fon/veni.png"); height:780px; width:1280px;/*почему не отображается фон?*/
+	background-repeat: no-repeat;
+	background-position: center top;	
+}
+.main {
+	margin: 1px 400px 1px 400px;
+}
+h1 {
+	color: #2F4F4F;
+	font-family: 'Marck Script', cursive; height:32px;/*Шрифты почему-то не работают.(Брал их в гугл-фонтс)*/
+}
+
+/*#exit {
+text-align: center;
+}*/
+.aboutme {
+  font-size: 18px;
+  font-family: "FiraSans";
+  color: rgb( 100, 100, 100 );
+  line-height: 1.444;
+  text-align: left;
+  position: absolute;
+  left: 689.844px;
+  top: 188.872px;
+  width: 348px;
+  height: 317px;
+  
+}
+.link:hover{
+	color: #2E8B57;
+	text-decoration: underline;
+}
+.link:visited{
+	color: #8B4513;
+	text-decoration: none;
+}
+
+.link:activ{
+	color: #9932CC;
+	text-decoration: none;
+}
+/*.item:nth-child(odd){
+color: 	#A0522D;
+}
+.item:nth-child(even){
+color: 	#800000;
+}
+.desk::first-letter{
+	font-size: 2em;
+	color: green;
+}
+.desk::first-line{
+	color: green;
+}
+
+}
+.termin::after{
+	content: '>>>'
+	font-weight:700;
+	color: red;}*/
+}
+.download{
+	text-align: right;
+	
+}
+
+}
+.btn{
+	text-align: right;
+	border: 10px; 
+	border-style: solid red;/*почему не работает?*/
+}
+.download-icon{
+	font:  &#10001;
+	margin-right:5px;
+
+}
+.I{
+	border-radius:100px;
+}
+.IS{
+	border-radius:30px;
+}
+.Rectangle{/*почему не работает?*/
+	top: 649px;
+	left: 0px;
+	right:0px;
+	height: 51px;
+    width: 1280px;
+    color: #8B4513;
+    position: fixed;
+}
+
+.footer-right{
+	position: relative;
+left: 1200px;
+top:200px;
+}
+.footer-left{
+	position: relative;
+
+top:250px;
+}
+.socials, #exit {
+	display: inline;/*почему не выстраиваются в одну линию? пришлось пользоваться position*/
+}	
+.nav__icon_opit.opit{
+	border-right:6px;
+	border-style: solid #9370DB; 
